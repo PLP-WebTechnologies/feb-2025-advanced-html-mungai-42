@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML5 Advanced Elements</title>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Advanced HTML5 Elements and Forms</h1>
+  </header>
+
+  <!-- Ordered List with Roman Numerals -->
+  <section>
+    <h2>Ordered List</h2>
+    <ol type="I">
+      <li>Item One</li>
+      <li>Item Two</li>
+      <li>Item Three</li>
+    </ol>
+  </section>
+
+  <!-- External Image -->
+  <section>
+    <h2>Image from Pexels</h2>
+    <img src="https://www.pexels.com/photo/1234567/download/" alt="Beautiful Landscape" width="500">
+    <!-- Replace the URL with the actual image link from Pexels -->
+  </section>
+
+  <!-- Contact Table -->
+  <section>
+    <h2>Contact Table</h2>
+    <table border="1" cellpadding="5">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td>123 Elm St</td>
+          <td>+123456789</td>
+          <td>johndoe@example.com</td>
+        </tr>
+        <tr>
+          <td>Jane Smith</td>
+          <td>456 Oak St</td>
+          <td>+987654321</td>
+          <td>janesmith@example.com</td>
+        </tr>
+        <tr>
+          <td>Sam Brown</td>
+          <td>789 Pine St</td>
+          <td>+5647382910</td>
+          <td>sambrown@example.com</td>
+        </tr>
+        <tr>
+          <td>Lisa White</td>
+          <td>321 Maple St</td>
+          <td>+1029384756</td>
+          <td>lisawhite@example.com</td>
+        </tr>
+        <tr>
+          <td>Tom Green</td>
+          <td>654 Birch St</td>
+          <td>+0192837465</td>
+          <td>tomgreen@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Registration Form -->
+  <section>
+    <h2>Registration Form</h2>
+    <form action="/submit" method="post">
+      <!-- Name Field -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+      <br><br>
+
+      <!-- Email Field -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <br><br>
+
+      <!-- Password Field -->
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Create a password" required>
+      <br><br>
+
+      <!-- Date Field -->
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+      <br><br>
+
+      <!-- Dropdown -->
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="">Select...</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+      <br><br>
+
+      <!-- Radio Buttons -->
+      <fieldset>
+        <legend>Subscription Plan:</legend>
+        <input type="radio" id="basic" name="plan" value="basic" required>
+        <label for="basic">Basic</label><br>
+        <input type="radio" id="premium" name="plan" value="premium">
+        <label for="premium">Premium</label><br>
+      </fieldset>
+      <br>
+
+      <!-- Checkboxes -->
+      <fieldset>
+        <legend>Hobbies:</legend>
+        <input type="checkbox" id="hobby1" name="hobbies" value="reading">
+        <label for="hobby1">Reading</label><br>
+        <input type="checkbox" id="hobby2" name="hobbies" value="traveling">
+        <label for="hobby2">Traveling</label><br>
+        <input type="checkbox" id="hobby3" name="hobbies" value="sports">
+        <label for="hobby3">Sports</label><br>
+      </fieldset>
+      <br>
+
+      <!-- Submit Button -->
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>Happy Coding! 💻✨</p>
+  </footer>
+</body>
+</html>
